@@ -1,7 +1,4 @@
 function solution(numlist, n) {
-    let answer = [];
-    let arr = [];
-    
     for(let i = 0; i < numlist.length-1; i++){
         for(let j = i+1; j < numlist.length; j++){
             if(Math.abs(numlist[i] - n) === Math.abs(numlist[j] - n)){
