@@ -13,9 +13,9 @@ function solution(lines) {
 
     for (const point of points) {
         if (point.type === 'start') {
-            count++;
+            count += 1;
         } else {
-            count--;
+            count -= 1;
         }
 
         if (count >= 2) {
