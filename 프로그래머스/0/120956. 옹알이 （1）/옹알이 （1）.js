@@ -16,4 +16,6 @@ function solution(say) {
     }
     
     return index.filter((x) => x > 0).length;
+    // 최댓값을 구해버리면..
+    // return Math.max(...index);
 }
