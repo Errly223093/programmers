@@ -1,7 +1,7 @@
 function solution(X, Y) {
     // int => string, 오름차순 정렬
-    X = X.toString().split('').sort();
-    Y = Y.toString().split('').sort();
+    X = X.toString().split('');
+    Y = Y.toString().split('');
     
     // 배열의 index 를 이용하여 각 숫자가 나온 횟수를 계산
     let x = new Array(10).fill(0);
